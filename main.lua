@@ -167,7 +167,7 @@ function love.draw()
             local block = inert[y][x]
             local color = colors[block]
             love.graphics.setColor(color)
-            local blockSize = 20
+            local blockSize = 30
             local blockDrawSize = blockSize - 1
             love.graphics.rectangle(
                 'fill',
